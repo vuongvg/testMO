@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "Node.js service template",
+  "main": "src/server.js",
+  "scripts": {
+    "start:prod": "NODE_ENV=production node src/server.js",
+    "start:dev": "NODE_ENV=development node src/server.js",
+    "start:local": "NODE_ENV=local nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogenius/nodejs-template.git"
+  },
+  "author": "Daniel Franken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mogenius/nodejs-template/issues"
+  },
+  "homepage": "https://github.com/mogenius/nodejs-template#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
